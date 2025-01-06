@@ -1,0 +1,88 @@
+@media (max-width:1030px){
+
+.home-banner .home-banner-1,
+.home-banner .home-banner-2{
+    background-position: 65% center;
+    min-height: 550px;
+}
+.home-caption{
+    transform: translate(-70%,-30%);
+    width: 60%;
+}
+.categories .cat-box .cat-info .heading-bigger{
+    font-size: 2rem;}
+}
+@media (max-width:991px){
+    /* home css */
+.home-caption{
+    transform: translate(-68%,-30%);
+    width: 60%;
+}
+.home-caption h1{
+    font-size: 3rem;
+}
+.categories .cat-box .cat-info .heading-bigger{
+    font-size: 1.8rem;
+}
+    
+}
+@media (max-width:767px){
+
+.home-banner .home-banner-1,
+.home-banner .home-banner-2{
+    background-position: 50% center;
+    min-height: 450px;
+}
+.home-caption{
+    transform: translate(-55%,-50%);
+    text-align: center;
+    width: 60%;
+}
+
+    
+}
+@media (max-width:432px){
+.home-banner .home-banner-1,
+.home-banner .home-banner-2{
+    background-position: 50% center;
+    min-height: 500px;
+}
+.home-caption{
+    transform: translate(-65%,-30%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.home-caption h1{
+    font-size:1.8rem;
+}
+.home-caption h5{
+    font-size: 14px;
+    width:100%;
+}
+.home-caption .btn{
+    margin-top: 0;
+    border: 1px solid #1d1c1c;
+    color: #2e2d2d;
+}
+.test .testimonial-wrapper  p{
+    width: 100%;
+}
+}
+@media (max-width:377px){
+    
+    .home-caption h1{
+        font-size:1.4rem;
+    }
+    .home-caption h5{
+        font-size: 14px;
+        width:100%;
+    }
+    .categories .cat-box .cat-info .heading-bigger{
+        font-size: 1.8rem;
+    }
+    .test .testimonial-wrapper  p{
+        width: 100%;
+        text-align: justify;
+    }
+}
